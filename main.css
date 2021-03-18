@@ -178,3 +178,47 @@ h2{
     background: #125688;
     color: white;
   }
+
+
+/*mobile sizes ===============================================================================================================================================================================================*/
+/*mobile sizes ===============================================================================================================================================================================================*/
+
+@media (max-width: 800px){
+
+   
+.image_container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 1000px
+    
+}
+.btn{
+    position: absolute;
+    text-decoration: none;
+   
+    box-shadow: 5px 5px 5px rgb(138, 45, 45);
+    background-color: rgba(255, 255, 255, 0.3);
+
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+  
+}
