@@ -1,10 +1,59 @@
 .body{
-    background-color: white;
+    background-color: #ADEBAD;
     display: flex;
     flex-direction: column;
     font-family: 'Noto Sans JP', sans-serif;
     
 }
+
+/* nav bar===*/
+
+header li, a, button {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: seagreen;
+    flex-wrap: wrap;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+}
+.nav-links li {
+    padding: 0px 15px;
+    text-align: center;
+}
+.nav-links li a:hover {
+    color: rgb(219, 32, 32);
+}
+button {
+    padding: 9px 25px;
+    background-color:rgb(16, 93, 151);
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(5, 145, 175);
+}
+/* nav bar===*/
+
+
+
+
 
 .topnav{
     background-color: #ADEBAD;
@@ -42,7 +91,7 @@
     box-shadow: 5px 5px 5px rgb(107, 106, 106);
 
 }
-header{
+header2{
     display: block;
     align-content: center;
     text-align: center;
@@ -191,8 +240,7 @@ h2{
     width: 100%;
     height: auto;
     margin: auto;
-    border-style: solid;
-    border-color: black;
+    
     
 }
 .image{
