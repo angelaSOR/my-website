@@ -232,10 +232,10 @@ h2{
     color: white;
   }
 
-image_container a{
+.image_container a{
     text-shadow: none;
 }
-bottomnav a{
+.bottomnav a{
     text-shadow: none;
 }
 
