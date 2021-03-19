@@ -185,7 +185,7 @@ h2{
     margin-top: 30px;
     background-color: seagreen;
     bottom: 0;
-    
+    position: static;
     width: 100%;
     align-items: baseline;
     align-content: center;
