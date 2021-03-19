@@ -190,7 +190,7 @@ h2{
     background-color: seagreen;
     opacity: 1;
     bottom: 0;
-    position: static;
+    position: sticky;
     width: 100%;
     align-items: baseline;
     align-content: center;
