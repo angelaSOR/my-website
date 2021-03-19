@@ -188,6 +188,7 @@ h2{
 .bottomnav{
     margin-top: 30px;
     background-color: seagreen;
+    opacity: 1;
     bottom: 0;
     position: static;
     width: 100%;
