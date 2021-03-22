@@ -1,0 +1,368 @@
+.body{
+    background-color:rgba(0, 128, 0, 0.234);
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+   
+    
+}
+
+
+
+
+topnav{
+    background-color: seagreen;
+    opacity: 1;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+}
+.links:hover{
+    color: rgba(128, 231, 174, 0.816);
+}
+.links{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    padding: 20px;
+
+}
+.search{
+    width: 200px;
+    padding: 10px 5px;
+    border:1px solid #eaeaea;
+    outline:none;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px rgb(107, 106, 106);
+
+}
+header{
+    display: block;
+    align-content: center;
+    text-align: center;
+    color: red;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: larger;
+    text-shadow: 2px 3px 3px rgb(124, 10, 33);
+    
+   
+    
+}
+h2{
+    font-size: 20px;
+    color:  rgb(85, 105, 85);
+    text-shadow: none
+  
+}
+
+.image_container{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-top: 10px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 1000px
+    
+}
+.btn{
+    position: absolute;
+    text-decoration: none;
+   
+    box-shadow: 5px 5px 5px rgb(138, 45, 45);
+    background-color: rgba(255, 255, 255, 0.3);
+
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+
+.image_container a{
+    text-shadow: none;
+}
+.bottomnav a{
+    text-shadow: 2px 2px red;
+}
+
+
+.btn:hover{
+    
+    background-color: rgba(255, 255, 255, 0.5);
+  
+}
+.btn:active {
+    font-size: 35px;
+}
+.btn:focus { outline: none; 
+}
+.btn1{
+    top: 52%;
+    left: 40%;
+    transform: translate(-90%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.btn2{
+    top: 52%;
+    left: 87%;
+    transform: translate(-90%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.btn3{
+    top: 49%;
+    left: 56%;
+    transform: translate(-60%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.bottomnav{
+    
+    background-color: seagreen;
+    opacity: 1;
+    bottom: 0;
+position:fixed;
+    width: 100%;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+
+    
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    padding: 20px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }
+  .bottomnav a{
+    text-shadow: none;
+}
+
+
+/*==top nav ========*/
+
+.topnav li, a, button {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: seagreen;
+    flex-wrap: wrap;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+}
+.nav-links li {
+    padding: 0px 15px;
+    text-align: center;
+}
+.nav-links li a:hover {
+    color: rgb(219, 32, 32);
+}
+button {
+    padding: 9px 25px;
+    background-color:rgb(16, 93, 151);
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(5, 145, 175);
+}
+/*==========*/
+
+/*mobile sizes ===============================================================================================================================================================================================*/
+/*mobile sizes ===============================================================================================================================================================================================*/
+
+@media (max-width: 800px){
+
+   
+.image_container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+    
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 1000px
+    
+}
+.btn{
+    position: absolute;
+    text-decoration: none;
+   
+    box-shadow: 5px 5px 5px rgb(138, 45, 45);
+    background-color: rgba(255, 255, 255, 0.3);
+
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+  
+}
+.btn:hover{
+    
+    background-color: rgba(255, 255, 255, 0.5);
+  
+}
+.btn:active {
+    font-size: 35px;
+}
+.btn:focus { outline: none; 
+}
+.btn1{
+    top: 54%;
+    left: 40%;
+    transform: translate(-90%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.btn2{
+    top: 50%;
+    left: 87%;
+    transform: translate(-90%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.btn3{
+    top: 50%;
+    left: 56%;
+    transform: translate(-60%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+
+
+bottomnav{
+   
+    background-color: seagreen;
+    opacity: 1;
+    bottom: 0;
+position:fixed;
+    width: 100%;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    height: 30px;
+
+    
+    
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+    padding: 7px;
+  }
+
+
+        
+}
+
+
+
+
