@@ -233,6 +233,15 @@ position:fixed;
     flex-wrap: nowrap;
     padding-left: 0;
 }
+
+.nav-links li::after {
+    top: 65%;
+    height: 2px;
+    width: 90%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
 .nav-links li {
     padding: 0px 15px;
     text-align: center;
