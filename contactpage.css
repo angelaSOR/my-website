@@ -54,11 +54,12 @@ header {
 .nav-links li {
     padding: 0px 15px;
     text-align: center;
+    text-decoration: none;
 }
 
 /* .nav-links li a:hover {
-    color: rgb(219, 32, 32);
-    #6bafa9
+     color: rgb(219, 32, 32);
+    
 } */
 
 a.middle
