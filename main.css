@@ -91,7 +91,7 @@ button:hover {
 
 
 
-topnav{
+/* topnav{
     background-color: seagreen;
     opacity: 1;
     display: flex;
@@ -125,7 +125,7 @@ topnav{
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 5px 5px rgb(107, 106, 106);
+    box-shadow: 5px 5px 5px rgb(107, 106, 106); */
 
 }
 header{
