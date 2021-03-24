@@ -85,14 +85,14 @@ a.middle:hover:before {
   }
 
 button {
-    padding: 9px 25px;
-    background-color:#c5dde2;
-    border-radius: 5px;
+    background-color:rgb(16, 93, 151);
+    border-radius: 15px;
     cursor: pointer;
+    padding: 9px 25px;
 }
 
 button:hover {
-    background-color: rgb(5, 145, 175);
+   background-color: rgb(5, 145, 175);
 }
 
 .container {
