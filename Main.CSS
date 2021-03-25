@@ -110,3 +110,25 @@ h1{
         font-size: 20px;
         display: flex;
 }
+.bottomnav{
+    
+    background-color: seagreen;
+    opacity: 1;
+    bottom: 0;
+position:static;
+    width: 100%;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    
+}
+
+
+.cfg{
+    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+} 
