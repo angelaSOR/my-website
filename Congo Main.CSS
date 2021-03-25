@@ -127,17 +127,39 @@ img.resize {
     font-size: 15px;
 }
 
-.bottomnav {
-    margin-top: 30px;
-    background-color: rgb(114, 143, 114);
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    align-items: baseline;
-    align-content: center;
-    text-align: center;
+.fa {
+   
     font-size: 20px;
-    display: flex;
+    width: 25px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    padding: 20px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }
+  .bottomnav a{
+    text-shadow: none;
 }
 
 
