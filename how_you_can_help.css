@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#adebad;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    color: black;
+}
+header li, a, button {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: seagreen;
+    flex-wrap: wrap;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+}
+.nav-links li {
+    padding: 0px 15px;
+    text-align: center;
+}
+/* .nav-links li a:hover {
+    color: rgb(219, 32, 32);
+} */
+
+a.middle
+{
+    position: relative;
+}
+
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.middle:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+button {
+    padding: 9px 25px;
+    background-color:rgb(16, 93, 151);
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(5, 145, 175);
+    transition: background-color 0.7s ease;
+
+}
+
+#bannerimage {
+    position: relative;
+    width: 100%;
+    background-image: url(Rainforestbanner.jpeg);
+    height: 320px;
+    background-position: center;
+  }
+
+.text-box {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    background-color: #ffedcc;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: seagreen solid 5px;
+    border-radius: 20px;
+  }
+
+  .container {
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.container:hover {
+    position: relative;
+    filter: brightness(100%) grayscale(0%);
+}
+
+.boxes {
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+    
+    font-size: 15px;
+    border: 0;
+    box-shadow: 0 0 0 2px white;
+    color: white;
+    background-color:rgba(19, 14, 14, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    height: 250px;
+}
+
+.boxes a {
+    text-decoration: underline;
+}
