@@ -151,7 +151,7 @@ button:hover {
     background-color: seagreen;
     opacity: 1;
     bottom: 0;
-    position:fixed;
+    position: static;
     width: 100%;
     align-items: baseline;
     align-content: center;
