@@ -118,15 +118,13 @@ h1{
     background: #125688;
     color: white;
   }
-  .nav a{
-    text-shadow: none;
-}
+
 .bottomnav{
     
     background-color: seagreen;
     opacity: 1;
     bottom: 0;
-position:static;
+    position: static;
     width: 100%;
     align-items: baseline;
     align-content: center;
